@@ -5,3 +5,8 @@ api-version: 1.16
 authors: [ Dhaboi ]
 description: a custom made keybomb plugin made for a server
 website: dhanotboi.github.io
+commands:
+  bomb:
+    description: This command is used for the bomb plugin, do /bomb help to learn more
+    usage: /<command> <arg1> <arg2> <arg3> <arg4>
+    permission: bomb.admin

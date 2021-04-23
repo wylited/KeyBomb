@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7075b499-3eaf-4c57-b10c-75f647f60e5e" name="Default Changelist" comment="" />
+    <list default="true" id="7075b499-3eaf-4c57-b10c-75f647f60e5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/keybomb/src/main/java/com/dhaboi/keybomb/itemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/keybomb/src/main/java/com/dhaboi/keybomb/itemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keybomb/src/main/java/com/dhaboi/keybomb/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/keybomb/src/main/java/com/dhaboi/keybomb/main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -66,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619178571680</updated>
       <workItem from="1619178575095" duration="180000" />
+      <workItem from="1619183707736" duration="15000" />
     </task>
     <servers />
   </component>

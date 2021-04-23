@@ -11,23 +11,13 @@ public final class main extends JavaPlugin {
     @Override
     public void onEnable() {
         System.out.println("KeyBomb plugin has started up successfully (I hope)");
-
+        itemManager.createRare();
+        itemManager.init();
+        this.getCommand("bomb").setExecutor(new commandManager());
     }
 
     @Override
     public void onDisable() {
         System.out.println("KeyBomb is turning off, bye bye! :)");
-    }
-
-    @Override
-    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if(command.getName().equals("bomb")){
-            sender.sendMessage(args[2]+ "has received a key bomb");
-            if (Bukkit.getServer().getPlayerExact(args[2]) != null){
-                Player p = Bukkit.getServer().getPlayerExact(args[2]);
-
-            }
-        }
-        return false;
     }
 }
