@@ -34,7 +34,7 @@ public class itemManager {
         ItemMeta meta = mythical.getItemMeta();//gets the ItemMeta
         lore.add("Right click to throw a key bomb!");
         lore.add("Throwing this Key bomb will allow");
-        lore.add("everyone in chat to gain a rare key bomb. :D");
+        lore.add("everyone in chat to gain a mythical key bomb. :D");
         lore.add("Thanks for sharing!");
         assert meta != null;
         meta.setDisplayName("§9§kX §r§5Mythical Key Bomb §kX");//display name of item
@@ -49,7 +49,7 @@ public class itemManager {
         ItemMeta meta = tavern.getItemMeta();//gets the ItemMeta
         lore.add("Right click to throw a key bomb!");
         lore.add("Throwing this Key bomb will allow");
-        lore.add("everyone in chat to gain a rare key bomb. :D");
+        lore.add("everyone in chat to gain a tavern key bomb. :D");
         lore.add("Thanks for sharing!");
         assert meta != null;
         meta.setDisplayName("§9§kX §r§6Tavern Key Bomb §kX");//display name of item

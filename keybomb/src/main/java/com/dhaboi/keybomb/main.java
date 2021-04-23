@@ -14,6 +14,7 @@ public final class main extends JavaPlugin {
         itemManager.createRare();
         itemManager.init();
         this.getCommand("bomb").setExecutor(new commandManager());
+        getServer().getPluginManager().registerEvents(new eventManager(), this);
     }
 
     @Override
