@@ -1,0 +1,7 @@
+name: Keybomb
+version: ${project.version}
+main: com.dhaboi.keybomb.main
+api-version: 1.16
+authors: [ Dhaboi ]
+description: a custom made keybomb plugin made for a server
+website: dhanotboi.github.io
