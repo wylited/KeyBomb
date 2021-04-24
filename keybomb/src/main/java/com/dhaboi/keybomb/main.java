@@ -1,6 +1,9 @@
 package com.dhaboi.keybomb;
 
+import net.md_5.bungee.api.chat.ClickEvent;
+import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -10,11 +13,11 @@ public final class main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        System.out.println("KeyBomb plugin has started up successfully (I hope)");
-        itemManager.createRare();
+        System.out.println("KeyBomb Initialization");
         itemManager.init();
         this.getCommand("bomb").setExecutor(new commandManager());
         getServer().getPluginManager().registerEvents(new eventManager(), this);
+        System.out.println("KeyBomb has started successfully!");
     }
 
     @Override
