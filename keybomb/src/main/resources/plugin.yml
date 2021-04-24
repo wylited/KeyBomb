@@ -12,6 +12,24 @@ commands:
     usage: /<command> <arg1> <arg2> <arg3> <arg4>
     permission: bomb.dev
     permission-message: Get Better
+  rarekey:
+    description: gives a player a rare key
+    aliases: rk
+    usage: /rarekey <player>
+    permission: bomb.dev
+    permission-message: Get Better
+  mythicalkey:
+    description: gives a player a mythical key
+    aliases: mk
+    usage: /mythicalkey <player>
+    permission: bomb.dev
+    permission-message: Get Better
+  tavernkey:
+    description: gives a player a tavern key
+    aliases: tk
+    usage: /tavernkey <player>
+    permission: bomb.dev
+    permission-message: Get Better
 permissions:
   bomb.dev:
     description: allows you to use all of the commands in the bomb plugin.

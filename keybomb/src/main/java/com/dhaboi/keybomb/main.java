@@ -16,6 +16,9 @@ public final class main extends JavaPlugin {
         System.out.println("KeyBomb Initialization");
         itemManager.init();
         this.getCommand("bomb").setExecutor(new commandManager());
+        this.getCommand("rarekey").setExecutor(new commandManager());
+        this.getCommand("mythicalkey").setExecutor(new commandManager());
+        this.getCommand("tavernkey").setExecutor(new commandManager());
         getServer().getPluginManager().registerEvents(new eventManager(), this);
         System.out.println("KeyBomb has started successfully!");
     }

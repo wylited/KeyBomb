@@ -58,6 +58,7 @@ public class eventManager implements Listener {
     }
     public void keyBomb(keyType key, Player thrower){
         for (Player p : Bukkit.getOnlinePlayers()) {
+            p.sendMessage("Hey everyone," + thrower + "has thrown a key bomb, click on the message below to claim it!");
             sendClickableCommand(p, "Click here to receive a"+key, key+"key");
         }
     }
