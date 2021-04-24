@@ -2,11 +2,17 @@ name: Keybomb
 version: ${project.version}
 main: com.dhaboi.keybomb.main
 api-version: 1.16
-authors: [ Dhaboi ]
+authors: [dhaboi]
 description: a custom made keybomb plugin made for a server
 website: dhanotboi.github.io
 commands:
   bomb:
     description: This command is used for the bomb plugin, do /bomb help to learn more
+    aliases: b
     usage: /<command> <arg1> <arg2> <arg3> <arg4>
-    permission: bomb.admin
+    permission: bomb.dev
+    permission-message: Get Better
+permissions:
+  bomb.dev:
+    description: allows you to use all of the commands in the bomb plugin.
+
